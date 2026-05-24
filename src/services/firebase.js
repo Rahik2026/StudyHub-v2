@@ -4,13 +4,21 @@ import { getFirestore } from "firebase/firestore";
 
 // These should be replaced with actual config from Firebase Console
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+
+  apiKey: "AIzaSyBpo3P8nj6qiYdRfJ-mkECZt7uOqJ6atIE",
+
+  authDomain: "studyhub-v2-f481a.firebaseapp.com",
+
+  projectId: "studyhub-v2-f481a",
+
+  storageBucket: "studyhub-v2-f481a.firebasestorage.app",
+
+  messagingSenderId: "878830372282",
+
+  appId: "1:878830372282:web:c1887772f96f25f8040983"
+
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
